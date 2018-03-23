@@ -7,6 +7,7 @@ class App extends Component {
         return (
             <div className="App">
               <Scene>
+                <a-entity camera look-controls wasd-controls></a-entity>
                 <Entity obj-model={{obj: './COIN.obj'}}
                         position={{x: 0, y: 0, z: -7}}
                         rotation={{x: 90, y: 10, z: 0}}
